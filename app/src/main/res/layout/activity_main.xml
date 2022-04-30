@@ -27,6 +27,7 @@
         android:text="minseo_test" />
 
 
+
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="91dp"
