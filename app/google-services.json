@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "325469672459",
+    "project_id": "test-75c1a",
+    "storage_bucket": "test-75c1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325469672459:android:3f3b872267fe7508c7a30e",
+        "android_client_info": {
+          "package_name": "com.example.youthnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325469672459-3mc5pk572bdm3btjrid29hpqf224ltla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.youthnotification",
+            "certificate_hash": "4b005b4b9026360e0ebb4ee4a0d76758dd95e730"
+          }
+        },
+        {
+          "client_id": "325469672459-gbln0aesdmg1ipqa4k7slailorc7ln8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQUtFmXBBYo5zFE5-1X_9NaE9-ExzF9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325469672459-gbln0aesdmg1ipqa4k7slailorc7ln8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
