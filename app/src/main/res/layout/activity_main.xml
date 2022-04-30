@@ -20,7 +20,7 @@
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="91dp"
-        android:layout_height="180dp"
+        android:layout_height="495dp"
         android:layout_weight="1"
         tools:srcCompat="@tools:sample/avatars" />
 
