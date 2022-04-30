@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:text="minseo" />
 
-
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="91dp"
