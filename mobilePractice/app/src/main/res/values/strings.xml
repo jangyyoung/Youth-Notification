@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">main_page</string>
+    <string-array name="item_array">
+        <item> item1 </item>
+        <item> item4 </item>
+        <item> item6 </item>
+    </string-array>
+
+    <string-array name="item_array2">
+        <item> item1 </item>
+        <item> item2 </item>
+        <item> item3 </item>
+        <item> item4 </item>
+        <item> item5 </item>
+        <item> item6 </item>
+        <item> item7 </item>
+        <item> item8 </item>
+        <item> item9 </item>
+    </string-array>
+
+</resources>

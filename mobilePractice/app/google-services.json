@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992953930670",
+    "firebase_url": "https://youth-notification-8001c-default-rtdb.firebaseio.com",
+    "project_id": "youth-notification-8001c",
+    "storage_bucket": "youth-notification-8001c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992953930670:android:120cc2cd59bf0c32ff6e3f",
+        "android_client_info": {
+          "package_name": "com.example.mobilepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992953930670-7na7i9ein8qtl94uchjb3m6cbl2hv81l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK3NrvvO6BEXDJTFv2kN2zad3M9JRMjy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992953930670-7na7i9ein8qtl94uchjb3m6cbl2hv81l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
