@@ -79,7 +79,7 @@ public class InfoActivity extends AppCompatActivity {
         @Override
         protected Document doInBackground(String... urls) {
 
-            String pageIndex = "15";
+            String pageIndex = "1";
             String display = "100";
             String bizTycdSel = "004001,004002,004003,004004,004005,004006";
             String srchPolyBizSecd = "003002008";
