@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="정책 유형1"
+                android:text="정책 유형"
                 android:textColor="@color/black"
                 android:textSize="15sp" />
             <Spinner
@@ -65,6 +65,12 @@
                 android:background="@color/white"
                 android:layout_marginStart="100dp"
                 android:text="press" />
+            <TextView
+                android:id="@+id/in_spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="선택"
+                android:textColor="#00000000"/>
         </LinearLayout>
 
         <LinearLayout
@@ -80,7 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:text="정책 유형2"
+                android:text="지역"
                 android:textColor="@color/black"
                 android:textSize="15sp" />
 
@@ -91,30 +97,11 @@
                 android:layout_marginStart="100dp"
                 android:background="@color/white"
                 android:text="press" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
-            android:background="#F4E985"
-            android:orientation="horizontal"
-            android:padding="20dp">
             <TextView
-                android:id="@+id/third"
+                android:id="@+id/in_spinner2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="나이"
-                android:textColor="@color/black"
-                android:textSize="15sp" />
-            <Spinner
-                android:id="@+id/third_spinner"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="130dp"
-                android:background="@color/white"
-                android:text="press" />
+                android:text="선택" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
