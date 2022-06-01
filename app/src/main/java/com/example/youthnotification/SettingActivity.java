@@ -1,18 +1,24 @@
-package org.techtown.main_page;
+package com.example.youthnotification;
 
 import android.app.Notification;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 public class SettingActivity extends AppCompatActivity {
+
+    String themeColor;
 
     ActionBar abar;
     @Override
@@ -20,12 +26,32 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.setting);
 
+        Button buttonLight = (Button)findViewById(R.id.buttonLight);
+        Button buttonDark = (Button)findViewById(R.id.buttonDark);
+
+        buttonLight.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                themeColor = ThemeUtil.LIGHT_MODE;
+                ThemeUtil.applyTheme(themeColor);
+            }
+        });
+
+        buttonDark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                themeColor = ThemeUtil.DARK_MODE;
+                ThemeUtil.applyTheme(themeColor);
+            }
+        });
+
         abar = getSupportActionBar();
         abar.setDisplayHomeAsUpEnabled(true);
 
         abar.setLogo(R.drawable.gglogo);
         abar.setDisplayOptions(ActionBar.DISPLAY_SHOW_HOME|ActionBar.DISPLAY_USE_LOGO);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -56,5 +82,26 @@ public class SettingActivity extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public static class ThemeUtil{
+        public static final String LIGHT_MODE = "light";
+        public static final String DARK_MODE = "dark";
+
+        public static final String TAG = "ThemeUTil";
+
+        public static void applyTheme(String themeColor){
+            switch(themeColor){
+                case LIGHT_MODE:
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                    Log.d(TAG,"라이트 모드 적용");
+                    break;
+
+                case DARK_MODE:
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                    Log.d(TAG,"다크 모드 적용");
+                    break;
+            }
+        }
     }
 }
