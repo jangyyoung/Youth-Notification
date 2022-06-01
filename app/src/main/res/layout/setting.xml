@@ -6,7 +6,22 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLight"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="라이트모드 설정"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        tools:ignore="MissingConstraints"
+       />
+
+
+    <Button
+        android:id="@+id/buttonDark"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="다크모드 설정"
@@ -15,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_bias="0.212"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -28,9 +43,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="56dp" />
+        app:layout_constraintVertical_bias="0.638"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -43,7 +57,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintVertical_bias="0.502"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -56,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_bias="0.766"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -69,7 +83,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintVertical_bias="0.349"
         tools:ignore="MissingConstraints" />
 
 
